@@ -43,7 +43,7 @@ else:
     print("Incorrect!!!")
 
 print("You got",score,"/5 questions")
-print ("You got "+str((score/5)*100) + "%")
+print ("You got ",(score/5)*100 , "%")
 
 if score>=3:
     print("You have passed the quiz.")
