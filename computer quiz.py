@@ -16,7 +16,7 @@ else:
 
 answer=input("What does CLI stand for in Computer System? ").lower()
 if answer == "command line interface":
-    print ("Correct")
+    print ("Correct!")
     score += 1
 else:
     print("Incorrect!!!")
